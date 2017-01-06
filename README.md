@@ -1,6 +1,10 @@
 # ski-redmart
-implementation in gawk to solve the problem detailed in:
+
+implementation in gawk script to solve the problem detailed in:
 http://geeks.redmart.com/2015/01/07/skiing-in-singapore-a-coding-diversion/
+
+approach:
+pre-selection of local peaks + recursive depth-first visit
 
 execution:
 gawk -f anamat.awk -v mat=map_redmart.txt
